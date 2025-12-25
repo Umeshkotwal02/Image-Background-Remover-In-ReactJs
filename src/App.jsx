@@ -59,7 +59,7 @@ function App() {
               <Wand2 className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-              Antigravity AI
+              Background Remover
             </span>
           </div>
           <div className="text-sm font-medium text-gray-400">
@@ -114,7 +114,8 @@ function App() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 mt-auto py-8 text-center text-gray-600 text-sm">
-        <p>© 2025 Antigravity AI. Powered by @imgly/background-removal.</p>
+        <p>© 2025 background-remover. Powered by @umeshkotwal02.</p>
+        <p>created using @imgly/background-removal package</p>
       </footer>
     </div>
   );
