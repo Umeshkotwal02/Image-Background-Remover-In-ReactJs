@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0F172A;
+  --color-surface: #1E293B;
+  --color-primary: #3B82F6;
+
+  --animate-progress-indeterminate: progress-indeterminate 1.5s ease-in-out infinite;
+
+  @keyframes progress-indeterminate {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-white antialiased;
+  }
+}
